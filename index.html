@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Personal profile of Mohamed Mohamed Belal Elwan, Computer Science student.">
+  <title>Mohamed Mohamed Belal Elwan | CS Student</title>
+
+  <!-- Link to the stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<!-- The page starts in dark mode -->
+<body class="dark">
+
+  <!-- ===== HEADER & NAVBAR ===== -->
+  <header class="header">
+    <nav class="navbar">
+      <h1 class="logo">Mohamed Mohamed Belal Elwan</h1>
+
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+
+      <!-- Dark / light mode button -->
+      <button type="button" id="theme-toggle" class="theme-toggle" aria-label="Toggle dark and light mode">
+        Light Mode
+      </button>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- ===== PROFILE SECTION ===== -->
+    <section id="home" class="profile">
+      <img src="images/me.jpg" alt="Portrait of Mohamed Mohamed Belal Elwan standing outdoors on his university campus" class="profile-photo">
+
+      <h2 class="profile-title">Computer Science Student</h2>
+      <p class="student-id">Student ID: 225115933</p>
+
+      <p class="intro">
+        I'm a Computer Science student interested in programming, web development, and technology.
+      </p>
+    </section>
+
+    <!-- ===== SKILLS SECTION ===== -->
+    <section id="about" class="skills">
+      <h2 class="section-title">Skills</h2>
+
+      <div class="cards">
+        <article class="card">
+          <h3>Programming Fundamentals</h3>
+          <p>Basic understanding of programming concepts and problem-solving.</p>
+        </article>
+
+        <article class="card">
+          <h3>Web Development</h3>
+          <p>Basic knowledge of HTML, CSS, and JavaScript.</p>
+        </article>
+
+        <article class="card">
+          <h3>Computer Science</h3>
+          <p>Interest in algorithms, data structures, and computer systems.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- ===== CONTACT FORM ===== -->
+    <section id="contact" class="contact">
+      <h2 class="section-title">Contact</h2>
+
+      <form class="contact-form" action="#" method="post">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" placeholder="Your name" required minlength="2">
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="you@example.com" required>
+
+        <button type="submit" class="submit-btn">Submit</button>
+      </form>
+    </section>
+
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <p>&copy; 2026 Mohamed Mohamed Belal Elwan. All Rights Reserved.</p>
+  </footer>
+
+  <!-- Link to the JavaScript file (at the end of body) -->
+  <script src="js/script.js"></script>
+</body>
+</html>
